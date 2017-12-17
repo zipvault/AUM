@@ -1,6 +1,9 @@
 # AUM
 Automated Update Machine
 
+//Automated Update Machine Script to Update Local Directories
+//I am using this to update webservers from ftp server, but i need to finish 1.1 and 1.2 and 1.4
+
 //1.1 need to work out how to link these Variable Text fields to the shell script
 
 //1.2
