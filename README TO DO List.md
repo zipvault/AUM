@@ -17,4 +17,4 @@ fix //1.4
 //with SSH or SFTP - t -t, within a shell?
 
 
-Please see AUM.SH attached in Git
+Please see sup.SH attached in Git
