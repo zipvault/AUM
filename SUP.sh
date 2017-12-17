@@ -1,5 +1,5 @@
-# AUM
-//Automated Update Machine Script to Update Local Directories
+# SUP
+//ServerSide Update Pusher Automate Update Reload Directory Script
 
 //1.2
 //this is to remove destination data and rebuild direcotry file structures
