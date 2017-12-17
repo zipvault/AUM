@@ -44,7 +44,23 @@ rsync -rhv --update SRCDirector + '/assets/*' root@Address:DSTDirector + '/asset
 rsync -rhv --update SRCDirector + '/*' root@Address:DSTDirector
 echo UPLINK COMPLETE
 echo --progress Uplink 100 Percent Complete
-// need error handling for1.3
+
+// need to finish below error handling for1.3
+#!/bin/bash
+if rsync --progress complete then
+
+notify-send "Uplink Complete"
+rsync -a --progress --delete
+errval=$?	
+if [[ "$errval" == "0" ]]; then
+notify-send "Complete"
+else
+notify-send "Error: Fail!"
+fi
+else
+notify-send "Not Found Try Again";
+exit
+fi
 
 
 
