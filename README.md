@@ -10,7 +10,7 @@ Automated Update Machine
 //this is to remove destination data and rebuild direcotry file structures, need to make it run prior to 1.3 script
 
 //1.3
-//this is the rsync script to update the DST director from SRC Director
+//this is the rsync script to update the DST director from SRC Director currently works locally auth by key
 
 //1.4
 //Need to work out how to reload and reset apache2 from within a script for remote trigger as i couldnot get it to reload 
