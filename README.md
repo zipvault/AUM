@@ -14,8 +14,8 @@ so i can change the address equals at the start of the script instead of having 
 //this is the rsync script to update the DST director from SRC Director currently works locally auth by key
 
 //1.4
-//Need to work out how to reload and reset apache2 from within a script for remote trigger as i couldnot get it to reload 
-//with SSH or SFTP - t -t.
+//Need to work out how to reload apache2 from within a script for remote trigger as i could not get it to reload 
+//with SSH or SFTP - t -t, within a shell.
 
 
 Please see AUM.RTF attached in Git
