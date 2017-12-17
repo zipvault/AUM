@@ -15,3 +15,6 @@ Automated Update Machine
 //1.4
 //Need to work out how to reload and reset apache2 from within a script for remote trigger as i couldnot get it to reload 
 //with SSH or SFTP - t -t.
+
+
+Please see AUM.RTF attached in Git
