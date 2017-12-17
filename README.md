@@ -4,7 +4,8 @@ Automated Update Machine
 //Automated Update Machine Script to Update Local Directories
 //I am using this to update webservers from ftp server, but i need to finish 1.1 and 1.2 and 1.4
 
-//1.1 need to work out how to link these Variable Text fields to the shell script
+//1.1 need to work out how to link these Variable Text fields to the shell script for example $address = 10.0.0.0
+so i can change the address equals at the start of the script instead of having to find and replace each required address location
 
 //1.2
 //this is to remove destination data and rebuild direcotry file structures, need to make it run prior to 1.3 script
