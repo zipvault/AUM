@@ -16,9 +16,10 @@ echo server reloaded
 
 //1.1 Variable Key Lang
 
+Webs  = 'service apache2'
 Directory = '/parent/directory/'
-DSTDirector = 'somefolder'
-SRCDirector = '/var/www/html'
+DSTDirector = '/var/www/html'
+SRCDirector = '/Uplink'
 Address = '10.0.0.1'
 
 
