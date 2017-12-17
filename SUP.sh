@@ -1,12 +1,6 @@
 # SUP
 //ServerSide Update Pusher Automate Update Reload Directory Script
 
-//1.2
-//this is to remove destination data and rebuild direcotry file structures
-
-//1.3
-//this is the rsync script to update the DST director from SRC Director
-
 
 
 //1 Variable Keys
@@ -23,8 +17,9 @@ Address = '10.0.0.1'
 ssh -t user@"Address" sudo 'apache2ctl stop'
 echo server reloaded
 
-
-//1.2 Remove and Rebuild Directors
+//1.2
+//this is to remove destination data and rebuild file structures
+//Remove and Rebuild Directors
 echo Remove and Rebuild Directories
 
 cd Directory
@@ -35,7 +30,8 @@ mkdir -p DSTDirector + '/images'
 mkdir -p DSTDirector + '/assets'
 
 
-
+//1.3
+//this is the rsync script to update the DST director from SRC Director
 //1.3 Rsync Update Script
 #!/bin/sh
 echo TRANSFER INITIATED
