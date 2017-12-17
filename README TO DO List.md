@@ -19,4 +19,4 @@ fix //1.4
 //with SSH or SFTP - t -t, within a shell?
 
 
-
+Please see SUP.sh for bash in Git
