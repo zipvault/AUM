@@ -1,5 +1,7 @@
-# AUM ToDo
-Automated Update Machine
+# S.U.P ToDo
+ServerSide Update Pusher
+
+ 
 
 //Automated Update Machine Script to Update Local Directoriesfrom ftp to serverside
 //I am using this to update webservers from ftp server, but i need to finish.
