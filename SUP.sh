@@ -8,13 +8,8 @@
 //this is the rsync script to update the DST director from SRC Director
 
 
-//1.0 Reload Web server
 
-ssh -t user@"Address" sudo 'apache2ctl stop'
-echo server reloaded
-
-
-//1.1 Variable Key Lang
+//1 Variable Keys
 
 Webs  = 'service apache2'
 Directory = '/parent/directory/'
@@ -22,6 +17,11 @@ DSTDirector = '/var/www/html'
 SRCDirector = '/Uplink'
 Address = '10.0.0.1'
 
+
+//1.0 Reload Web server
+
+ssh -t user@"Address" sudo 'apache2ctl stop'
+echo server reloaded
 
 
 //1.2 Remove and Rebuild Directors
